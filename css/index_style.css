@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+
+*{
+    margin: 2;
+    background-color: rgba(109, 110, 107, 0.226);
+}
+.body {
+    display: flex;
+    height: 100vh;
+}
+.Home{
+    font-family: 'Rowdies', cursive;
+    font-size: 30px;
+    height: 50px;
+}
+
+.sidebar nav{
+    font-family: 'Alfa Slab One', cursive;
+    width: 13vw;
+}
+.sidebar li{
+    margin: 3vw;
+    font-size: 25px;
+}
+.main{
+    font-family: 'Shadows Into Light', cursive;
+    width: 200vh;
+    font-size: 25px;
+}
